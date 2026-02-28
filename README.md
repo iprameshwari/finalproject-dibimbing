@@ -88,11 +88,12 @@ uvicorn api:app --host 0.0.0.0 --port 8000
 
 
 ## Business Logic
+```markdown
 - Aggregation uses event-time processing
-- Fixed window durationL 10 minutes
+- Fixed window duration 10 minutes
 - Threshold : 35°C average temperature
 - Alert level: HIGH_HEAT
-
+```
 
 ## Key Features Demonstrated
 - Real-time Kafka ingestion
@@ -103,6 +104,7 @@ uvicorn api:app --host 0.0.0.0 --port 8000
 
 
 ## PROJECT STRUCTURE
+```text
 finalproject/
 ├── api/
 │   └── api.py
@@ -117,6 +119,7 @@ finalproject/
 ├── README.md
 ├── schema.sql
 └── dev.nix
+```
 
 
 
