@@ -75,7 +75,7 @@ make kafka-up
 
 ### 2. Set Database URL
 --- # bash
-export DATABASE_URL="postgresql://neondb_owner:npg_jt6hLdEBJ2UG@ep-green-boat-a1pi7z4d-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+export DATABASE_URL="postgresql://neondb_owner:****************@ep-green-boat-a1pi7z4d-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 ### 3. Run Consumer
 --- # bash
