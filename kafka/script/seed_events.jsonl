@@ -1,0 +1,12 @@
+{"sensor_id":"HOSP-01","timestamp":"2026-02-27T19:10:10Z","latitude":-6.9155,"longitude":107.6112,"temperature":38.4,"humidity":60}
+{"sensor_id":"HOSP-02","timestamp":"2026-02-27T19:12:20Z","latitude":-6.9154,"longitude":107.6110,"temperature":39.1,"humidity":61}
+{"sensor_id":"HOSP-03","timestamp":"2026-02-27T19:15:05Z","latitude":-6.9156,"longitude":107.6113,"temperature":37.8,"humidity":59}
+{"sensor_id":"OFF-01","timestamp":"2026-02-27T19:10:30Z","latitude":-6.9155,"longitude":107.6125,"temperature":31.2,"humidity":58}
+{"sensor_id":"OFF-02","timestamp":"2026-02-27T19:12:40Z","latitude":-6.9152,"longitude":107.6132,"temperature":32.0,"humidity":57}
+{"sensor_id":"OFF-03","timestamp":"2026-02-27T19:15:20Z","latitude":-6.9148,"longitude":107.6137,"temperature":30.6,"humidity":59}
+{"sensor_id":"WH-01","timestamp":"2026-02-27T19:11:00Z","latitude":-6.9170,"longitude":107.6100,"temperature":34.2,"humidity":62}
+{"sensor_id":"WH-02","timestamp":"2026-02-27T19:13:10Z","latitude":-6.9175,"longitude":107.6093,"temperature":35.0,"humidity":63}
+{"sensor_id":"WH-03","timestamp":"2026-02-27T19:16:00Z","latitude":-6.9178,"longitude":107.6108,"temperature":33.8,"humidity":61}
+{"sensor_id":"MALL-01","timestamp":"2026-02-27T19:11:20Z","latitude":-6.9170,"longitude":107.6125,"temperature":30.5,"humidity":55}
+{"sensor_id":"MALL-02","timestamp":"2026-02-27T19:13:40Z","latitude":-6.9176,"longitude":107.6133,"temperature":31.0,"humidity":56}
+{"sensor_id":"MALL-03","timestamp":"2026-02-27T19:16:10Z","latitude":-6.9172,"longitude":107.6138,"temperature":30.8,"humidity":55}
