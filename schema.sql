@@ -86,6 +86,36 @@ CREATE TABLE IF NOT EXISTS building_heat_alert (
 CREATE INDEX IF NOT EXISTS idx_alert_created
   ON building_heat_alert (created_at DESC);
 
+
+-- =========================================
+-- Dummy Data
+-- =========================================
+-- A) Buildings (POLYGON)
+INSERT INTO buildings (building_name, function, geom)
+VALUES
+  (
+    'Hospital A',
+    'Hospital',
+    ST_MakeEnvelope(107.6105, -6.9165, 107.6118, -6.9153, 4326)
+  ),
+  (
+    'Office B',
+    'Office',
+    ST_MakeEnvelope(107.6120, -6.9160, 107.6133, -6.9149, 4326)
+  ),
+  (
+    'Warehouse C',
+    'Warehouse',
+    ST_MakeEnvelope(107.6095, -6.9175, 107.6108, -6.9164, 4326)
+  ),
+  (
+    'Mall D',
+    'Mall',
+    ST_MakeEnvelope(107.6135, -6.9168, 107.6148, -6.9156, 4326)
+  );
+
+
+
 -- =========================================
 -- Functions
 -- =========================================
